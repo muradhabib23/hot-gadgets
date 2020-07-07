@@ -1,0 +1,100 @@
+body{
+    background-image: url(images/background-image.jpg);
+}
+.container{
+    margin-bottom: 100px;
+}
+.bg-image{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px grey;
+}
+.carousel-item{
+    padding-left: 50px;
+}
+.carousel-indicators li {
+    background-image: linear-gradient(yellow, orange);
+    height: 5px; 
+    border-radius: 40%; 
+}
+.logo{
+width: 125px;
+}
+.navbar-nav{
+    font-weight: 600;
+}
+.buy-now-button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+#see-all{
+    color: orange;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px grey;
+}
+.card-footer{ 
+    border-top: none;
+    border-radius: 10px;
+    background-color: white;
+}
+.price{
+    text-align: center;
+}
+
+.heading-center{
+    text-align: center;
+}
+.cat-border {
+    width: 100px;
+    height: 5px;
+    background-image: linear-gradient(yellow, orange);
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.cat-image1{
+    background-color: transparent;
+    height: 180px;
+    width: auto;
+    border-radius: 20px 5px 20px 5px;
+    box-shadow: 5px 5px 30px grey;
+    padding-left: 55px;
+    padding-top: 10px;
+}
+.cat-image2{
+    background-color: transparent;
+    height: 180px;
+    border-radius: 5px 20px 5px 20px;
+    box-shadow: 5px 5px 30px grey;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.cat-image3{
+    background-color: transparent;
+    height: 180px;
+    border-radius: 5px 20px 5px 20px;
+    box-shadow: 5px 5px 30px grey;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.right-image img{
+    width: 120%;
+}
+h6{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+a {
+    text-decoration: none !important;
+    color: lightgray;
+}
